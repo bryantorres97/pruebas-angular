@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
+
+  wsURL: 'http://localhost:8081',
 };
