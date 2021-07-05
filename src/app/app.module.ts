@@ -10,11 +10,12 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ChatComponent } from './components/chat/chat.component';
 import { MainComponent } from './components/main/main.component';
 import { environment } from 'src/environments/environment';
+import { PedidoComponent } from './components/pedido/pedido.component';
 
 const config: SocketIoConfig = { url: environment.wsURL, options: {} };
 
 @NgModule({
-  declarations: [AppComponent, ModalComponent, ChatComponent, MainComponent],
+  declarations: [AppComponent, ModalComponent, ChatComponent, MainComponent, PedidoComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

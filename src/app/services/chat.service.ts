@@ -20,4 +20,8 @@ export class ChatService {
   getMessages() {
     return this.wsService.listen('mensaje-nuevo');
   }
+
+  getPedidos() {
+    return this.wsService.listen('pedido-nuevo');
+  }
 }
